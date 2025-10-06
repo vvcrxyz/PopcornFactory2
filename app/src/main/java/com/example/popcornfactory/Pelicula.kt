@@ -1,5 +1,4 @@
-package mungarro.carlos.popcornfactory
-
+package com.example.popcornfactory
 data class Pelicula (var titulo: String,
                      var image: Int,
                      var header: Int,
