@@ -6,30 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#230F86"
-    android:padding="8dp"
     tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/tv_titulo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="🎞️ Cartelera de Películas"
-        android:textColor="@android:color/white"
-        android:textSize="22sp"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:layout_marginBottom="8dp"/>
 
     <GridView
         android:id="@+id/gridview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:numColumns="3"
-        android:verticalSpacing="10dp"
-        android:horizontalSpacing="10dp"
-        android:stretchMode="columnWidth"
-        android:clipToPadding="false"
-        android:paddingBottom="16dp"
-        android:gravity="center"/>
+        android:numColumns="3">
+
+    </GridView>
+
+
 </LinearLayout>

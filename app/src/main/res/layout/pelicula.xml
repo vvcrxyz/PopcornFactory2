@@ -20,14 +20,17 @@
 
 
         <TextView
-            android:id="@+id/iv_nombre_pelicula"
+            android:id="@+id/tv_nombre_pelicula"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
             android:text="BONES"
             android:textSize="15sp"
             android:gravity="center"
             />
+
+
+
+
 
     </LinearLayout>
 
