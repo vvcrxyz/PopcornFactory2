@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black_background"
+    android:layout_height="match_parent"
+    tools:context=".MovieDetail">
+
+
+    <ImageView
+        android:id="@+id/movie_header"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/yellow"
+            android:id="@+id/movie_title_detail"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/yellow"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="40dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/movieSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/buyTickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black_background"
+        android:background="@drawable/round_button"
+        android:paddingHorizontal="@dimen/paddingButton"
+        android:text="Buy my ticket!"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grisclaro"
+        android:textStyle="italic"
+        android:layout_marginTop="7dp"
+        android:id="@+id/seatsLeft"
+        />
+
+
+</LinearLayout>
