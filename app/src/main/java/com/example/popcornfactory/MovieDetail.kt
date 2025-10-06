@@ -4,7 +4,7 @@ import android.R.attr.id
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import mungarro.carlos.popcornfactory.databinding.ActivityMovieDetailBinding
+import com.example.popcornfactory.databinding.ActivityMovieDetailBinding
 
 
 class MovieDetail : AppCompatActivity() {

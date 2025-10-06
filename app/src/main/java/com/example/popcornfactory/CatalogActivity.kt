@@ -100,8 +100,8 @@ class CatalogActivity : AppCompatActivity() {
         peliculas.add(
             Pelicula(
                 "1917",
-                R.drawable.nineteenseventeen,
-                R.drawable.nineteenseventeenheader,
+                R.drawable.n1917,
+                R.drawable.n1917header,
                 "Rachel Green, Ross Geller, Monica Geller, Joey Tribbiani, Chandler Bing and Phoebe Buffay are six 20 something year-olds, living off of one another in the heart of New York City. Over the course of ten years, this average group of buddies goes through massive mayhem, family trouble, past and future romances, fights, laughs, tears and surprises as they learn what it really means to be a friend.",
                 arrayListOf<Cliente>()
             )
